@@ -8,6 +8,7 @@ spec:
     metadata:
       labels:
         app: vote
+        redis: "true"
     spec:
       containers:
       - image: dockersamples/examplevotingapp_vote:before

@@ -8,6 +8,7 @@ spec:
     metadata:
       labels:
         app: result
+        db: "true"
     spec:
       containers:
       - image: dockersamples/examplevotingapp_result:before

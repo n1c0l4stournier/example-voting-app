@@ -8,6 +8,8 @@ spec:
     metadata:
       labels:
         app: worker
+        redis: "true"
+        db: "true"
     spec:
       containers:
       - image: dockersamples/examplevotingapp_worker
